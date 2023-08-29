@@ -15,7 +15,7 @@
           Login
         </b-button>
         <div class="text-center" style="border: 1px solid rgb(206, 212, 218); padding: 5px; border-radius: 5px;">
-          New to IS help desk ? <b-link href="create" variant="primary">Create account</b-link>
+          <b-link href="register" variant="primary">Create account ?</b-link> or <b-link href="forgotpassword" variant="primary">Forgot password ?</b-link>
         </div>
       </b-card>
     </div>

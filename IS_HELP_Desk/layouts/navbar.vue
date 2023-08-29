@@ -67,7 +67,7 @@
                 </div>
                 <hr class="ml-3 mr-3">
                 <b-nav class="text-center">
-                  <b-nav-item href="/ticket">
+                  <b-nav-item href="#">
                     <h5 style="color: black; font-size: 18px">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -22,8 +22,7 @@
         <h2 class="text-center mb-2">
           Forgot Password
         </h2> 
-        <div class="container">
-          <div class="col-6 mx-auto">
+        <div class="text-center mx-auto">
             <b-form-group class="text-center">
               <h6>Please enter your Email</h6>
             </b-form-group>
@@ -33,7 +32,6 @@
               type="email"
               required
             />
-          </div>
         </div>
         <div class="text-center">
           <b-form-group class="mt-1" />
