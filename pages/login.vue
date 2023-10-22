@@ -40,6 +40,18 @@
             <img src="~/assets/images/2.png" height="25px">
             Login with Google</a>
         </div>
+        <div
+          class="text-center mt-3"
+          style="
+            border: 1px solid rgb(206, 212, 218);
+            padding: auto;
+            border-radius: 5px;
+          "
+        >
+          <b-link href="register">
+            register?
+          </b-link>
+        </div>
       </b-card>
     </div>
   </div>
