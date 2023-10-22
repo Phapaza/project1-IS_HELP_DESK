@@ -1,11 +1,31 @@
 <template>
-  <div class="container-fluid bg">
+  <div class="container-fluid">
     <div class="d-flex justify-content-center align-items-center min-vh-100">
-      TEST
+
+      <div class="min-vh-100 col-8" md="auto">
+        <b-calendar class="border rounded p-2" v-model="value" @context="onContext" block locale="en-US"></b-calendar>
+        <b-button class="mt-3 ml-5" type="submit" variant="success" style="width: 400px" href="/login">
+          Login Page
+        </b-button>
+      </div>
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      value: "",
+      context: null,
+    };
+  },
+  methods: {
+    onContext(ctx) {
+      this.context = ctx;
+    },
+  },
+};
+</script>
 <style>
 .custom-card {
   max-width: 470px;
@@ -19,7 +39,7 @@
   margin: 0 auto;
 }
 
-.bg {
-  background: linear-gradient(45deg, #84BFDD, #FFF7CF);
+body {
+  background: linear-gradient(45deg, #84bfdd, #fff7cf);
 }
 </style>
