@@ -1,4 +1,7 @@
 export default {
+  server: {
+    port: 8080, 
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'CIS_IT_Desk',

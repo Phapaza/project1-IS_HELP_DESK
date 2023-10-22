@@ -4,9 +4,7 @@
       <header>
         <b-navbar class="bgNav" toggleable="lg" variant="info">
           <div>
-            <b-button
-              v-b-toggle.sidebar-no-header
-            >
+            <b-button v-b-toggle.sidebar-no-header>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -22,13 +20,7 @@
                 />
               </svg>
             </b-button>
-            <b-sidebar
-              id="sidebar-no-header"
-              no-header
-              width="250px"
-              shadow
-              backdrop
-            >
+            <b-sidebar id="sidebar-no-header" no-header width="250px" shadow backdrop>
               <template #footer>
                 <div class="fipBg d-flex text-light align-items-center px-3 py-2">
                   <strong class="mr-auto">
@@ -65,7 +57,7 @@
                 <div class="p-1 text-center">
                   <img src="~/assets/images/1.png" class="img-fluid" href="/home" />
                 </div>
-                <hr class="ml-3 mr-3">
+                <hr class="ml-3 mr-3" />
                 <b-nav class="text-center">
                   <b-nav-item href="#">
                     <h5 style="color: black; font-size: 18px">
@@ -184,11 +176,14 @@
 .bgNav {
   background: linear-gradient(45deg, #ffffff, #ffffff);
 }
+
 .fipBg {
-  background: linear-gradient(180deg,  #fff7cf, #9ddeff);
+  background: linear-gradient(180deg, #fff7cf, #9ddeff);
 }
+
 #sidebar-no-header {
-  background: linear-gradient(45deg, #9ddeff, #fff7cf); /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
+  background: linear-gradient(45deg, #9ddeff, #fff7cf);
+  /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
   /* คุณสามารถเพิ่มสไตล์อื่น ๆ ที่คุณต้องการในส่วนนี้ */
 }
 </style>

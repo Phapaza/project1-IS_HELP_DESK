@@ -1,23 +1,7 @@
 <template>
   <div class="container-fluid bg">
     <div class="d-flex justify-content-center align-items-center min-vh-100">
-      <b-card class="custom-card container-fluid" style="border-radius: 15px;">
-        <div class="text-center">
-          <img src="~/assets/images/1.png" class="img-fluid custom-image">
-        </div>
-        <b-form-group class="text-left" label="Username">
-          <b-form-input placeholder="Enter username or email" style="width: 400px;" />
-        </b-form-group>
-        <b-form-group class="text-left" label="Password">
-          <b-form-input type="password" placeholder="Enter password" style="width: 400px;" />
-        </b-form-group>
-        <b-button class="mt-3 mb-4" type="submit" variant="success" style="width: 400px;" href="/home">
-          Login
-        </b-button>
-        <div class="text-center" style="border: 1px solid rgb(206, 212, 218); padding: 5px; border-radius: 5px;">
-          <b-link href="register" variant="primary">Create account ?</b-link> or <b-link href="forgotpassword" variant="primary">Forgot password ?</b-link>
-        </div>
-      </b-card>
+      TEST
     </div>
   </div>
 </template>
