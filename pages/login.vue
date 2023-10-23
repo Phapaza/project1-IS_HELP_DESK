@@ -6,6 +6,7 @@
           <img src="~/assets/images/1.png" class="img-fluid custom-image">
         </div>
         <b-form-group class="text-left">
+          <span> Email </span>
           <b-form-input
             placeholder="Enter username or email"
             style="width: 400px"
