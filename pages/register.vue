@@ -29,7 +29,7 @@
             <label for="email">Email:</label>
             <input
               id="email"
-              v-model="userData.lastname"
+              v-model="userData.email"
               type="email"
               required
             >
@@ -161,6 +161,7 @@ export default {
       if (this.userData.password !== this.confirmPassword) {
         alert('รหัสผ่านและยืนยันรหัสผ่านไม่ตรงกัน')
       }
+      alert('ลงทะเบียนสำเร็จ')
     }
   }
 }
