@@ -116,7 +116,6 @@
               </option>
             </select>
           </div>
-
           <button type="submit">
             ลงทะเบียน
           </button>
@@ -161,17 +160,7 @@ export default {
     registerUser () {
       if (this.userData.password !== this.confirmPassword) {
         alert('รหัสผ่านและยืนยันรหัสผ่านไม่ตรงกัน')
-        return
       }
-
-      // ทำสิ่งที่คุณต้องการเมื่อผู้ใช้ลงทะเบียน
-      // คุณสามารถส่งข้อมูลไปยังเซิร์ฟเวอร์ได้ที่นี่
-
-      // แสดง alert สำหรับการแจ้งเตือนผู้ใช้
-      alert('การลงทะเบียนสำเร็จ!')
-
-      // นำผู้ใช้ไปยังหน้า index โดยใช้ Vue Router
-      this.$router.push({ path: '/' }) // คุณต้องตรวจสอบว่าเส้นทาง '/' ได้ถูกกำหนดให้กับหน้า index ในไฟล์ router.js ของคุณ
     }
   }
 }
